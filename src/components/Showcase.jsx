@@ -20,7 +20,7 @@ const Showcase = () => {
             timeline
                 .to('.mask img', {
                     transform: 'scale(1.1)'
-                }).to('.content', { opacity: 1, y: 0, ease: 'power1.in' });
+                }).to('.content', { opacity: 1, y: -150, ease: 'power1.in' }, "<");
         }
     }, [isTablet])
 
@@ -33,12 +33,12 @@ const Showcase = () => {
                 </div>
             </div>
 
-            <div className="content">
+            <div className="content z-50">
                 <div className="wrapper">
                     <div className="lg:max-w-md">
                         <h2>Rocket Chip</h2>
 
-                        <div className="space-y-5 mt-7 pe-10">
+                        <div className="space-y-5 mt-7 pe-24 ">
                             <p>
                                 Introducing {" "}
                                 <span className="text-white">
