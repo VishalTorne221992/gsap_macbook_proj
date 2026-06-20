@@ -1,5 +1,5 @@
 import { PresentationControls } from '@react-three/drei';
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import MacbookModel16 from '../models/Macbook-16';
 import MacbookModel14 from '../models/Macbook-14';
 import gsap from 'gsap';
@@ -34,7 +34,7 @@ const ModelSwitcher = ({ scale, isMobile }) => {
 
     const showLargeMacbook = scale === 0.08 || scale === 0.05;
 
-        useGSAP(() => {
+    useGSAP(() => {
         if(showLargeMacbook) {
             moveGroup(smallMacbookRef.current, -OFFSET_DISTANCE);
             moveGroup(largeMacbookRef.current, 0);

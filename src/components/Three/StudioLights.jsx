@@ -1,6 +1,5 @@
-import { Environment, Lightformer } from "@react-three/drei";
-import { useHelper, OrbitControls } from '@react-three/drei';
-import React, { useRef } from "react";
+import { Environment, Lightformer, useHelper } from "@react-three/drei";
+import { useRef } from "react";
 import { SpotLightHelper } from "three";
 
 const StudioLights = () => {
