@@ -4,8 +4,8 @@ import {Canvas} from "@react-three/fiber";
 import {Box, OrbitControls} from "@react-three/drei";
 import MacbookModel14 from "./models/Macbook-14.jsx";
 import {useMediaQuery} from "react-responsive";
-import StudioLights from "../components/three/StudioLights.jsx";
-import ModelSwitcher from "../components/Three/ModelSwitcher.jsx";
+import StudioLights from "./three/StudioLights.jsx";
+import ModelSwitcher from "./three/ModelSwitcher.jsx";
 
 const ProductViewer = () => {
     const { color, scale, setColor, setScale } = useMacbookStore();
