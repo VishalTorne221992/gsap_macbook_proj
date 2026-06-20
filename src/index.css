@@ -191,7 +191,7 @@ body {
       }
 
       .mask {
-        @apply absolute h-full top-0 lg:-top-20 xl:-top-28;
+        @apply absolute h-full top-0 lg:-top-20 xl:bottom-10;
 
         img {
           @apply h-full scale-150 lg:scale-100;
@@ -224,7 +224,7 @@ body {
   }
 
   #performance {
-    @apply w-dvw h-full overflow-hidden pt-20 lg:pt-20 flex flex-col items-center relative;
+    @apply w-dvw h-full overflow-hidden pt-20 lg:pt-40 lg:top-96 flex flex-col items-center relative;
 
     h2 {
       @apply font-semibold text-3xl lg:text-6xl text-white max-w-2xl text-center;
@@ -234,7 +234,7 @@ body {
       @apply w-7xl 2xl:w-[100rem] h-[50vh] lg:h-screen relative;
 
       img {
-        @apply max-w-40 lg:max-w-[27rem] 2xl:max-w-[35rem] object-cover object-center;
+        @apply max-w-40 lg:max-w-108 2xl:max-w-[35rem] object-cover object-center;
       }
 
       .p1 {
@@ -267,7 +267,7 @@ body {
     }
 
     .content {
-      @apply mx-auto max-w-xl mt-24;
+      @apply mx-auto max-w-xl mt-64;
 
       p {
         @apply lg:h3-semibold base-semibold text-center translate-y-10 opacity-0 px-5;
